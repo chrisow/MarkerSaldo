@@ -1,5 +1,5 @@
 // Essa mensagem somente irá aparecer se você invocar a funcão exibirMensagem()
-// em algum ligar deste script.
+// em algum lugar deste script.
 function exibirMensagem() {
 	alert('Olá, seja bem-vindo(a)!');
 }
@@ -13,7 +13,7 @@ var saldo,
 	horas,
 	resultado;
 
-// Não esqueça que o método prompt transforma o que ele recebe em string,
+// Não se esqueça que o método prompt transforma o que ele recebe em string,
 // e precisamos transformar tudo em números (float).
 numeroPessoas = prompt("Qual o número de pessoas a contratar?");
 saldo = prompt('Qual é o valor do saldo?'); // Onde você está usando o saldo? :-(
